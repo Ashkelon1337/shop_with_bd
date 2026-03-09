@@ -14,7 +14,7 @@ Telegram-бот для продажи автомобилей с каталого
 - Aiogram 3.x
 - SQLAlchemy + aiosqlite
 - FSM (Finite State Machine)
-- 
+  
 ## Команды
 - "/start" - Начало работы
 - Кнопка "🚗 Каталог" - список машин
