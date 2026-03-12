@@ -1,8 +1,9 @@
+
+from config import DATABASE_URL
 from sqlalchemy import BigInteger, String, ForeignKey, Integer
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column
-from config import DATABASE_URL
-from sqlalchemy.ext.asyncio import AsyncAttrs, async_sessionmaker, create_async_engine
 
+from sqlalchemy.ext.asyncio import AsyncAttrs, async_sessionmaker, create_async_engine
 
 
 engine = create_async_engine(url=DATABASE_URL, echo=True)
