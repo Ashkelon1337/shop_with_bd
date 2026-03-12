@@ -1,5 +1,5 @@
 
-from aiogram.filters import CommandStart
+from aiogram.filters import CommandStart, Command
 from aiogram import F, Router
 from aiogram.types import Message, CallbackQuery
 from aiogram.fsm.context import FSMContext
