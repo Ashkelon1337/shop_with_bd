@@ -1,16 +1,13 @@
+import os
+import logging
+from contextlib import asynccontextmanager
 from aiogram import Bot, Dispatcher
-from anyio.pytest_plugin import free_tcp_port
-
-from config import TOKEN
-import logging, asyncio
-
+from aiogram.client.default import DefaultBotProperties
+from aiogram.enums import ParseMode
+from aiogram.types import Update
 from fastapi import FastAPI, Request
 import uvicorn
-from contextlib import asynccontextmanager
-from aiogram.types import Update
-from aiogram.enums import ParseMode
-from aiogram.client.default import DefaultBotProperties
-import os
+from config import TOKEN
 from handlers import user, basket
 from database.models import create_db
 
