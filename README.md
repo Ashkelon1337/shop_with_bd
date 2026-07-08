@@ -37,11 +37,11 @@ A Telegram bot for selling cars, featuring an interactive catalog, shopping cart
     git clone [https://github.com/Ashkelon1337/shop_with_bd.git](https://github.com/Ashkelon1337/shop_with_bd.git)
     cd shop_with_bd
 2. **Create and activate a virtual environment:**
-    # On Linux/macOS
+    #### On Linux/macOS
     python3 -m venv .venv
     source .venv/bin/activate
     
-    # On Windows
+    #### On Windows
     python -m venv .venv
     .venv\Scripts\activate
 3. **Install the required dependencies:**
