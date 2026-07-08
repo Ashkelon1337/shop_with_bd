@@ -37,16 +37,18 @@ A Telegram bot for selling cars, featuring an interactive catalog, shopping cart
     git clone [https://github.com/Ashkelon1337/shop_with_bd.git](https://github.com/Ashkelon1337/shop_with_bd.git)
     cd shop_with_bd
 2. **Create and activate a virtual environment:**
-    #### On Linux/macOS
+    ```bash
+    # On Linux/macOS
     python3 -m venv .venv
     source .venv/bin/activate
     
-    #### On Windows
+    # On Windows
     python -m venv .venv
     .venv\Scripts\activate
+    ```
 3. **Install the required dependencies:**
-    pip install -r requirements.txt
+    ```bash pip install -r requirements.txt```
 4. **Configure environment variables: Create a .env file in the root directory and add your Telegram Bot token:**
-    BOT_TOKEN=your_bot_token_here
+    ```bash BOT_TOKEN=your_bot_token_here```
 5. **Run the application:**
-    python run.py
+    ```bash python run.py```
